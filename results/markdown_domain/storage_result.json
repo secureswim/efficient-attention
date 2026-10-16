@@ -1,0 +1,125 @@
+{
+  "comparisons": {
+    "changed_B": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "evicted_B": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "repeated": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "reversed": {
+      "first_different_token": -1,
+      "match": true
+    }
+  },
+  "document_id": "storage",
+  "document_tokens": 130,
+  "focus": "/sections/Snapshot policy",
+  "max_tokens": 3,
+  "model_load_ms": 1304.531,
+  "question": "What is the snapshot interval?",
+  "scenarios": {
+    "baseline": {
+      "context_ms": 33.8779,
+      "document_prefill_ms": 1416.6568,
+      "eviction_ms": 0.0,
+      "generated_tokens": 3,
+      "generation_ms": 117.5292,
+      "ids": [
+        31350,
+        3222,
+        56
+      ],
+      "kv_after_bytes": 2524476,
+      "kv_after_pos": 76,
+      "kv_before_bytes": 2524476,
+      "kv_before_pos": 76,
+      "question_prefill_ms": 407.5443,
+      "text": " HOURLY",
+      "total_ms": 1976.0271
+    },
+    "changed_B": {
+      "context_ms": 28.1148,
+      "document_prefill_ms": 1408.2186,
+      "eviction_ms": 0.0,
+      "generated_tokens": 3,
+      "generation_ms": 118.5535,
+      "ids": [
+        31350,
+        3222,
+        56
+      ],
+      "kv_after_bytes": 2557256,
+      "kv_after_pos": 77,
+      "kv_before_bytes": 2557256,
+      "kv_before_pos": 77,
+      "question_prefill_ms": 318.064,
+      "text": " HOURLY",
+      "total_ms": 1873.2048
+    },
+    "evicted_B": {
+      "context_ms": 29.5978,
+      "document_prefill_ms": 1187.0036,
+      "eviction_ms": 0.022,
+      "generated_tokens": 3,
+      "generation_ms": 113.7908,
+      "ids": [
+        31350,
+        3222,
+        56
+      ],
+      "kv_after_bytes": 1049376,
+      "kv_after_pos": 31,
+      "kv_before_bytes": 2524476,
+      "kv_before_pos": 76,
+      "question_prefill_ms": 284.4589,
+      "text": " HOURLY",
+      "total_ms": 1615.0917
+    },
+    "repeated": {
+      "context_ms": 33.8771,
+      "document_prefill_ms": 1250.3481,
+      "eviction_ms": 0.0,
+      "generated_tokens": 3,
+      "generation_ms": 115.3918,
+      "ids": [
+        31350,
+        3222,
+        56
+      ],
+      "kv_after_bytes": 2524476,
+      "kv_after_pos": 76,
+      "kv_before_bytes": 2524476,
+      "kv_before_pos": 76,
+      "question_prefill_ms": 290.2656,
+      "text": " HOURLY",
+      "total_ms": 1690.1946
+    },
+    "reversed": {
+      "context_ms": 32.417,
+      "document_prefill_ms": 1166.6628,
+      "eviction_ms": 0.0,
+      "generated_tokens": 3,
+      "generation_ms": 105.0601,
+      "ids": [
+        31350,
+        3222,
+        56
+      ],
+      "kv_after_bytes": 2524476,
+      "kv_after_pos": 76,
+      "kv_before_bytes": 2524476,
+      "kv_before_pos": 76,
+      "question_prefill_ms": 269.3985,
+      "text": " HOURLY",
+      "total_ms": 1573.744
+    }
+  },
+  "threads": 4,
+  "unrelated": "/sections/Log policy"
+}

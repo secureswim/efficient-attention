@@ -1,0 +1,10 @@
+file,mode,prompt,threads,prompt_tokens,generated_tokens,model_load_ms,tokenize_ms,prefill_ms,generation_ms,total_ms
+batched_run,single,A,4,12,24,1421.72,0.076,490.392,1316.31,1823.79
+batched_run,single,B,4,13,24,1421.72,0.0847,320.165,1216.43,1552.27
+batched_run,batched,both,4,25,48,1421.72,0.1098,519.158,2783.06,3320.9
+batched_reverse,single,A,4,12,24,1548.6,0.2212,396.608,1747.64,2162.38
+batched_reverse,single,B,4,13,24,1548.6,0.1162,756.998,3697.7,4478.06
+batched_reverse,batched_reverse,both,4,25,48,1548.6,0.2451,1585.97,4887.9,6497.71
+batched_repeat,single,A,4,12,24,1578.66,0.1184,395.34,1866.78,2280.7
+batched_repeat,single,B,4,13,24,1578.66,0.1626,739.58,3329.0,4091.64
+batched_repeat,batched,both,4,25,48,1578.66,0.2329,1486.45,4961.08,6470.92

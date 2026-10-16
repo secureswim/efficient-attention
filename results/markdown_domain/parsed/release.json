@@ -1,0 +1,852 @@
+{
+  "schema_version": 1,
+  "document_id": "release",
+  "root_prefix": "Answer using only the selected Markdown section and the shared document context. Reply with the requested value only.\n\nDocument: release\nShared Markdown:\n# Release handbook\n\n\n",
+  "nodes": [
+    {
+      "id": "n0",
+      "path": "",
+      "parent": null,
+      "node_type": "document",
+      "text": "Answer using only the selected Markdown section and the shared document context. Reply with the requested value only.\n\nDocument: release\nShared Markdown:\n# Release handbook\n\n\n",
+      "tokens": [
+        128000,
+        16533,
+        1701,
+        1193,
+        279,
+        4183,
+        74292,
+        3857,
+        323,
+        279,
+        6222,
+        2246,
+        2317,
+        13,
+        18321,
+        449,
+        279,
+        11472,
+        907,
+        1193,
+        382,
+        7676,
+        25,
+        4984,
+        198,
+        17430,
+        74292,
+        512,
+        2,
+        17836,
+        76349,
+        1432
+      ],
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "seq_ids": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "merged_into": null
+    },
+    {
+      "id": "n1",
+      "path": "/sections/Production rollout",
+      "parent": "n0",
+      "node_type": "section",
+      "text": "\nSection: Production rollout\nMarkdown:\n## Production rollout\n\nThe production rollout uses BLUE as its rollback target. Keep that target ready until the new deployment passes validation.\n\n### Operator steps\n\n- Promote the candidate release.\n- Verify the health endpoint.\n- If validation fails, return traffic to BLUE.\n\n\n",
+      "tokens": [
+        198,
+        9817,
+        25,
+        25003,
+        72830,
+        198,
+        69105,
+        512,
+        567,
+        25003,
+        72830,
+        271,
+        791,
+        5788,
+        72830,
+        5829,
+        56992,
+        439,
+        1202,
+        61514,
+        2218,
+        13,
+        13969,
+        430,
+        2218,
+        5644,
+        3156,
+        279,
+        502,
+        24047,
+        16609,
+        10741,
+        382,
+        14711,
+        29598,
+        7504,
+        271,
+        12,
+        18042,
+        1295,
+        279,
+        9322,
+        4984,
+        627,
+        12,
+        26504,
+        279,
+        2890,
+        15233,
+        627,
+        12,
+        1442,
+        10741,
+        14865,
+        11,
+        471,
+        9629,
+        311,
+        56992,
+        4286
+      ],
+      "positions": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91
+      ],
+      "seq_ids": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "merged_into": null
+    },
+    {
+      "id": "n2",
+      "path": "/sections/Canary checks",
+      "parent": "n0",
+      "node_type": "section",
+      "text": "\nSection: Canary checks\nMarkdown:\n## Canary checks\n\nThe canary runs in the EAST region. Check the service metrics for ten minutes before wider rollout.\n\n```text\ncanary-region=EAST\n```\n\n",
+      "tokens": [
+        198,
+        9817,
+        25,
+        100056,
+        12621,
+        198,
+        69105,
+        512,
+        567,
+        100056,
+        12621,
+        271,
+        791,
+        649,
+        661,
+        8640,
+        304,
+        279,
+        78725,
+        5654,
+        13,
+        4343,
+        279,
+        2532,
+        17150,
+        369,
+        5899,
+        4520,
+        1603,
+        22622,
+        72830,
+        382,
+        74694,
+        1342,
+        198,
+        4919,
+        661,
+        61779,
+        86334,
+        6483,
+        198,
+        14196,
+        19884
+      ],
+      "positions": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "seq_ids": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "merged_into": null
+    },
+    {
+      "id": "n3",
+      "path": "/sections/Production rollout/blocks/1",
+      "parent": "n1",
+      "node_type": "heading",
+      "text": "### Operator steps\n",
+      "tokens": [],
+      "positions": [],
+      "seq_ids": [],
+      "merged_into": "n1"
+    },
+    {
+      "id": "n4",
+      "path": "/sections/Production rollout/blocks/2",
+      "parent": "n3",
+      "node_type": "list",
+      "text": "",
+      "tokens": [],
+      "positions": [],
+      "seq_ids": [],
+      "merged_into": "n1"
+    },
+    {
+      "id": "n5",
+      "path": "/sections/Production rollout/blocks/3",
+      "parent": "n4",
+      "node_type": "list_item",
+      "text": "",
+      "tokens": [],
+      "positions": [],
+      "seq_ids": [],
+      "merged_into": "n1"
+    },
+    {
+      "id": "n6",
+      "path": "/sections/Production rollout/blocks/4",
+      "parent": "n4",
+      "node_type": "list_item",
+      "text": "",
+      "tokens": [],
+      "positions": [],
+      "seq_ids": [],
+      "merged_into": "n1"
+    },
+    {
+      "id": "n7",
+      "path": "/sections/Production rollout/blocks/5",
+      "parent": "n4",
+      "node_type": "list_item",
+      "text": "",
+      "tokens": [],
+      "positions": [],
+      "seq_ids": [],
+      "merged_into": "n1"
+    },
+    {
+      "id": "n8",
+      "path": "/sections/Canary checks/blocks/1",
+      "parent": "n2",
+      "node_type": "code",
+      "text": "```text\ncanary-region=EAST\n```\n",
+      "tokens": [],
+      "positions": [],
+      "seq_ids": [],
+      "merged_into": "n2"
+    }
+  ],
+  "groups": [
+    {
+      "seq_id": 0,
+      "path": "/sections/Production rollout",
+      "node_id": "n1",
+      "start_pos": 32,
+      "end_pos": 92
+    },
+    {
+      "seq_id": 1,
+      "path": "/sections/Canary checks",
+      "node_id": "n2",
+      "start_pos": 32,
+      "end_pos": 75
+    }
+  ],
+  "stats": {
+    "node_count": 9,
+    "max_depth": 4,
+    "group_count": 2,
+    "group_token_sizes": [
+      60,
+      43
+    ],
+    "model_token_count": 135,
+    "source_tokens": 91,
+    "pure_syntax_tokens": 24,
+    "pure_syntax_share": 0.2637,
+    "syntax_method": "whole model token piece is punctuation or whitespace in original Markdown; excludes added prompts"
+  }
+}

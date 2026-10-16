@@ -1,0 +1,115 @@
+{
+  "comparisons": {
+    "changed_B": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "evicted_B": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "repeated": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "reversed": {
+      "first_different_token": -1,
+      "match": true
+    }
+  },
+  "document_id": "release",
+  "document_tokens": 135,
+  "focus": "/sections/Production rollout",
+  "max_tokens": 16,
+  "model_load_ms": 1346.2634,
+  "question": "What is the rollback target for the production rollout?",
+  "scenarios": {
+    "baseline": {
+      "context_ms": 31.7937,
+      "document_prefill_ms": 1340.6502,
+      "eviction_ms": 0.0,
+      "generated_tokens": 1,
+      "generation_ms": 52.321,
+      "ids": [
+        56992
+      ],
+      "kv_after_bytes": 2458916,
+      "kv_after_pos": 74,
+      "kv_before_bytes": 2458916,
+      "kv_before_pos": 74,
+      "question_prefill_ms": 370.0664,
+      "text": " BLUE",
+      "total_ms": 1795.0969
+    },
+    "changed_B": {
+      "context_ms": 33.4509,
+      "document_prefill_ms": 1292.3337,
+      "eviction_ms": 0.0,
+      "generated_tokens": 1,
+      "generation_ms": 49.55,
+      "ids": [
+        56992
+      ],
+      "kv_after_bytes": 2458916,
+      "kv_after_pos": 74,
+      "kv_before_bytes": 2458916,
+      "kv_before_pos": 74,
+      "question_prefill_ms": 464.3445,
+      "text": " BLUE",
+      "total_ms": 1839.9366
+    },
+    "evicted_B": {
+      "context_ms": 30.775,
+      "document_prefill_ms": 1355.4495,
+      "eviction_ms": 0.0226,
+      "generated_tokens": 1,
+      "generation_ms": 48.7852,
+      "ids": [
+        56992
+      ],
+      "kv_after_bytes": 1049376,
+      "kv_after_pos": 31,
+      "kv_before_bytes": 2458916,
+      "kv_before_pos": 74,
+      "question_prefill_ms": 317.7576,
+      "text": " BLUE",
+      "total_ms": 1753.0177
+    },
+    "repeated": {
+      "context_ms": 31.4102,
+      "document_prefill_ms": 1196.8158,
+      "eviction_ms": 0.0,
+      "generated_tokens": 1,
+      "generation_ms": 48.058,
+      "ids": [
+        56992
+      ],
+      "kv_after_bytes": 2458916,
+      "kv_after_pos": 74,
+      "kv_before_bytes": 2458916,
+      "kv_before_pos": 74,
+      "question_prefill_ms": 296.7112,
+      "text": " BLUE",
+      "total_ms": 1573.2501
+    },
+    "reversed": {
+      "context_ms": 33.5835,
+      "document_prefill_ms": 1282.0097,
+      "eviction_ms": 0.0,
+      "generated_tokens": 1,
+      "generation_ms": 55.4973,
+      "ids": [
+        56992
+      ],
+      "kv_after_bytes": 2458916,
+      "kv_after_pos": 74,
+      "kv_before_bytes": 2458916,
+      "kv_before_pos": 74,
+      "question_prefill_ms": 311.7702,
+      "text": " BLUE",
+      "total_ms": 1683.0786
+    }
+  },
+  "threads": 4,
+  "unrelated": "/sections/Canary checks"
+}

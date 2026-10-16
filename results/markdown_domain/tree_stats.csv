@@ -1,0 +1,6 @@
+document,max_depth,nodes,groups,group_token_sizes,model_tokens,syntax_tokens,source_tokens,syntax_share,kv_before_bytes,kv_after_bytes
+release,4,9,2,60;43,135,24,91,0.2637,2458916,1049376
+access,3,7,2,49;45,126,20,82,0.2439,2524476,1049376
+incident,3,8,2,53;40,126,22,82,0.2683,2393356,1082156
+build,3,7,2,50;37,119,21,75,0.28,2262236,1049376
+storage,3,7,2,53;45,130,18,86,0.2093,2524476,1049376

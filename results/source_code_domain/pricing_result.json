@@ -1,0 +1,120 @@
+{
+  "comparisons": {
+    "changed_B": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "evicted_B": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "repeated": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "reversed": {
+      "first_different_token": -1,
+      "match": true
+    }
+  },
+  "document_id": "pricing",
+  "document_tokens": 129,
+  "focus": "/functions/shipping_label",
+  "max_tokens": 16,
+  "model_load_ms": 1341.9804,
+  "question": "What label does shipping_label return when subtotal is 50 or more?",
+  "scenarios": {
+    "baseline": {
+      "context_ms": 34.907,
+      "document_prefill_ms": 1390.6764,
+      "eviction_ms": 0.0,
+      "generated_tokens": 2,
+      "generation_ms": 49.3841,
+      "ids": [
+        16655,
+        271
+      ],
+      "kv_after_bytes": 2753936,
+      "kv_after_pos": 83,
+      "kv_before_bytes": 2753936,
+      "kv_before_pos": 83,
+      "question_prefill_ms": 394.1668,
+      "text": " FREE",
+      "total_ms": 1869.3922
+    },
+    "changed_B": {
+      "context_ms": 31.4047,
+      "document_prefill_ms": 1377.7425,
+      "eviction_ms": 0.0,
+      "generated_tokens": 2,
+      "generation_ms": 54.1059,
+      "ids": [
+        16655,
+        271
+      ],
+      "kv_after_bytes": 2786716,
+      "kv_after_pos": 84,
+      "kv_before_bytes": 2786716,
+      "kv_before_pos": 84,
+      "question_prefill_ms": 367.5275,
+      "text": " FREE",
+      "total_ms": 1831.0271
+    },
+    "evicted_B": {
+      "context_ms": 30.9589,
+      "document_prefill_ms": 1308.6318,
+      "eviction_ms": 0.0212,
+      "generated_tokens": 2,
+      "generation_ms": 47.8228,
+      "ids": [
+        16655,
+        271
+      ],
+      "kv_after_bytes": 1409956,
+      "kv_after_pos": 42,
+      "kv_before_bytes": 2753936,
+      "kv_before_pos": 83,
+      "question_prefill_ms": 328.7259,
+      "text": " FREE",
+      "total_ms": 1716.4041
+    },
+    "repeated": {
+      "context_ms": 30.1291,
+      "document_prefill_ms": 1317.2969,
+      "eviction_ms": 0.0,
+      "generated_tokens": 2,
+      "generation_ms": 53.0026,
+      "ids": [
+        16655,
+        271
+      ],
+      "kv_after_bytes": 2753936,
+      "kv_after_pos": 83,
+      "kv_before_bytes": 2753936,
+      "kv_before_pos": 83,
+      "question_prefill_ms": 344.35,
+      "text": " FREE",
+      "total_ms": 1745.0448
+    },
+    "reversed": {
+      "context_ms": 31.4594,
+      "document_prefill_ms": 1417.4781,
+      "eviction_ms": 0.0,
+      "generated_tokens": 2,
+      "generation_ms": 50.8239,
+      "ids": [
+        16655,
+        271
+      ],
+      "kv_after_bytes": 2753936,
+      "kv_after_pos": 83,
+      "kv_before_bytes": 2753936,
+      "kv_before_pos": 83,
+      "question_prefill_ms": 382.412,
+      "text": " FREE",
+      "total_ms": 1882.3913
+    }
+  },
+  "threads": 4,
+  "unrelated": "/functions/receipt_footer"
+}

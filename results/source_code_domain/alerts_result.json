@@ -1,0 +1,125 @@
+{
+  "comparisons": {
+    "changed_B": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "evicted_B": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "repeated": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "reversed": {
+      "first_different_token": -1,
+      "match": true
+    }
+  },
+  "document_id": "alerts",
+  "document_tokens": 137,
+  "focus": "/classes/Alert/methods/severity",
+  "max_tokens": 16,
+  "model_load_ms": 1409.2016,
+  "question": "What severity does Alert.severity return for 10 or more errors?",
+  "scenarios": {
+    "baseline": {
+      "context_ms": 37.7351,
+      "document_prefill_ms": 1311.5057,
+      "eviction_ms": 0.0,
+      "generated_tokens": 3,
+      "generation_ms": 103.0577,
+      "ids": [
+        12904,
+        47917,
+        1432
+      ],
+      "kv_after_bytes": 2786716,
+      "kv_after_pos": 84,
+      "kv_before_bytes": 2786716,
+      "kv_before_pos": 84,
+      "question_prefill_ms": 388.9955,
+      "text": " CRITICAL",
+      "total_ms": 1841.6246
+    },
+    "changed_B": {
+      "context_ms": 31.9112,
+      "document_prefill_ms": 1215.5819,
+      "eviction_ms": 0.0,
+      "generated_tokens": 3,
+      "generation_ms": 103.0217,
+      "ids": [
+        12904,
+        47917,
+        1432
+      ],
+      "kv_after_bytes": 2852276,
+      "kv_after_pos": 86,
+      "kv_before_bytes": 2852276,
+      "kv_before_pos": 86,
+      "question_prefill_ms": 309.8757,
+      "text": " CRITICAL",
+      "total_ms": 1660.687
+    },
+    "evicted_B": {
+      "context_ms": 33.7269,
+      "document_prefill_ms": 1225.9144,
+      "eviction_ms": 0.0183,
+      "generated_tokens": 3,
+      "generation_ms": 100.9607,
+      "ids": [
+        12904,
+        47917,
+        1432
+      ],
+      "kv_after_bytes": 1409956,
+      "kv_after_pos": 42,
+      "kv_before_bytes": 2786716,
+      "kv_before_pos": 84,
+      "question_prefill_ms": 315.1702,
+      "text": " CRITICAL",
+      "total_ms": 1676.0926
+    },
+    "repeated": {
+      "context_ms": 30.5946,
+      "document_prefill_ms": 1191.7699,
+      "eviction_ms": 0.0,
+      "generated_tokens": 3,
+      "generation_ms": 103.4804,
+      "ids": [
+        12904,
+        47917,
+        1432
+      ],
+      "kv_after_bytes": 2786716,
+      "kv_after_pos": 84,
+      "kv_before_bytes": 2786716,
+      "kv_before_pos": 84,
+      "question_prefill_ms": 297.6895,
+      "text": " CRITICAL",
+      "total_ms": 1623.8392
+    },
+    "reversed": {
+      "context_ms": 30.5889,
+      "document_prefill_ms": 1181.5748,
+      "eviction_ms": 0.0,
+      "generated_tokens": 3,
+      "generation_ms": 98.789,
+      "ids": [
+        12904,
+        47917,
+        1432
+      ],
+      "kv_after_bytes": 2786716,
+      "kv_after_pos": 84,
+      "kv_before_bytes": 2786716,
+      "kv_before_pos": 84,
+      "question_prefill_ms": 333.2959,
+      "text": " CRITICAL",
+      "total_ms": 1644.5152
+    }
+  },
+  "threads": 4,
+  "unrelated": "/classes/Alert/methods/display_title"
+}

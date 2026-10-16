@@ -1,0 +1,6 @@
+document,max_depth,nodes,groups,group_token_sizes,model_tokens,syntax_tokens,source_tokens,syntax_share,kv_before_bytes,kv_after_bytes
+pricing,1,5,2,45;41,129,36,76,0.4737,2753936,1409956
+accounts,2,7,2,46;44,142,46,82,0.561,3147296,1704976
+inventory,1,4,2,56;40,131,43,80,0.5375,2458916,1147716
+alerts,2,5,2,52;42,137,40,79,0.5063,2786716,1409956
+exports,1,5,2,44;38,129,37,77,0.4805,2786716,1541076

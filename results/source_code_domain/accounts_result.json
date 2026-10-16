@@ -1,0 +1,120 @@
+{
+  "comparisons": {
+    "changed_B": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "evicted_B": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "repeated": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "reversed": {
+      "first_different_token": -1,
+      "match": true
+    }
+  },
+  "document_id": "accounts",
+  "document_tokens": 142,
+  "focus": "/classes/Account/methods/tier",
+  "max_tokens": 16,
+  "model_load_ms": 1425.934,
+  "question": "What tier does Account.tier return when credits are 100 or more?",
+  "scenarios": {
+    "baseline": {
+      "context_ms": 39.5946,
+      "document_prefill_ms": 1297.4243,
+      "eviction_ms": 0.0,
+      "generated_tokens": 2,
+      "generation_ms": 50.4951,
+      "ids": [
+        73863,
+        271
+      ],
+      "kv_after_bytes": 3147296,
+      "kv_after_pos": 95,
+      "kv_before_bytes": 3147296,
+      "kv_before_pos": 95,
+      "question_prefill_ms": 373.4115,
+      "text": " GOLD",
+      "total_ms": 1761.2576
+    },
+    "changed_B": {
+      "context_ms": 33.3616,
+      "document_prefill_ms": 1253.041,
+      "eviction_ms": 0.0,
+      "generated_tokens": 2,
+      "generation_ms": 50.4296,
+      "ids": [
+        73863,
+        271
+      ],
+      "kv_after_bytes": 3180076,
+      "kv_after_pos": 96,
+      "kv_before_bytes": 3180076,
+      "kv_before_pos": 96,
+      "question_prefill_ms": 321.2055,
+      "text": " GOLD",
+      "total_ms": 1658.4259
+    },
+    "evicted_B": {
+      "context_ms": 32.3751,
+      "document_prefill_ms": 1294.2974,
+      "eviction_ms": 0.0233,
+      "generated_tokens": 2,
+      "generation_ms": 52.2548,
+      "ids": [
+        73863,
+        271
+      ],
+      "kv_after_bytes": 1704976,
+      "kv_after_pos": 51,
+      "kv_before_bytes": 3147296,
+      "kv_before_pos": 95,
+      "question_prefill_ms": 313.407,
+      "text": " GOLD",
+      "total_ms": 1692.6312
+    },
+    "repeated": {
+      "context_ms": 32.9727,
+      "document_prefill_ms": 1284.0269,
+      "eviction_ms": 0.0,
+      "generated_tokens": 2,
+      "generation_ms": 57.8806,
+      "ids": [
+        73863,
+        271
+      ],
+      "kv_after_bytes": 3147296,
+      "kv_after_pos": 95,
+      "kv_before_bytes": 3147296,
+      "kv_before_pos": 95,
+      "question_prefill_ms": 330.248,
+      "text": " GOLD",
+      "total_ms": 1705.4288
+    },
+    "reversed": {
+      "context_ms": 32.8039,
+      "document_prefill_ms": 1376.5477,
+      "eviction_ms": 0.0,
+      "generated_tokens": 2,
+      "generation_ms": 52.6863,
+      "ids": [
+        73863,
+        271
+      ],
+      "kv_after_bytes": 3147296,
+      "kv_after_pos": 95,
+      "kv_before_bytes": 3147296,
+      "kv_before_pos": 95,
+      "question_prefill_ms": 351.2757,
+      "text": " GOLD",
+      "total_ms": 1813.5711
+    }
+  },
+  "threads": 4,
+  "unrelated": "/classes/Account/methods/renewal_note"
+}

@@ -1,0 +1,7 @@
+[
+  {"id":"release","focus":"/sections/Production rollout","unrelated":"/sections/Canary checks","question":"What is the rollback target for the production rollout?","expected":"BLUE"},
+  {"id":"access","focus":"/sections/Account permissions","unrelated":"/sections/Audit records","question":"What is the default account role?","expected":"VIEWER"},
+  {"id":"incident","focus":"/sections/Severity rules","unrelated":"/sections/Notification route","question":"What severity is assigned to customer data exposure?","expected":"P1"},
+  {"id":"build","focus":"/sections/Release artifact","unrelated":"/sections/Documentation build","question":"What is the release package file extension?","expected":"whl"},
+  {"id":"storage","focus":"/sections/Snapshot policy","unrelated":"/sections/Log policy","question":"What is the snapshot interval?","expected":"HOURLY","max_tokens":3}
+]

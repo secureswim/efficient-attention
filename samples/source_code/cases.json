@@ -1,0 +1,7 @@
+[
+  {"id":"pricing","focus":"/functions/shipping_label","unrelated":"/functions/receipt_footer","question":"What label does shipping_label return when subtotal is 50 or more?","expected":"FREE"},
+  {"id":"accounts","focus":"/classes/Account/methods/tier","unrelated":"/classes/Account/methods/renewal_note","question":"What tier does Account.tier return when credits are 100 or more?","expected":"GOLD"},
+  {"id":"inventory","focus":"/functions/stock_status","unrelated":"/functions/bin_label","question":"What status does stock_status return when quantity is zero?","expected":"OUT"},
+  {"id":"alerts","focus":"/classes/Alert/methods/severity","unrelated":"/classes/Alert/methods/display_title","question":"What severity does Alert.severity return for 10 or more errors?","expected":"CRITICAL"},
+  {"id":"exports","focus":"/functions/export_extension","unrelated":"/functions/row_caption","question":"What extension does export_extension return for the table file type?","expected":"csv"}
+]

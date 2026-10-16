@@ -1,0 +1,9 @@
+Criterion: identical greedy token IDs and decoded text, all 24 generated tokens.
+batched_run A: MATCH; first differing token index: none
+batched_run B: MATCH; first differing token index: none
+batched_reverse A: MATCH; first differing token index: none
+batched_reverse B: MATCH; first differing token index: none
+batched_repeat A: MATCH; first differing token index: none
+batched_repeat B: MATCH; first differing token index: none
+B batched IDs are identical in both batch orders.
+B batched IDs are identical on repetition.

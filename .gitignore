@@ -1,0 +1,11 @@
+build/
+llama.cpp/
+models/*.gguf
+results/*.log
+results/**/*.log
+__pycache__/
+.slide-build/
+results/local_markdown_domain/
+results/local_part1/
+.venv/
+results/local_source_code_domain/

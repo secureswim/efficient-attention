@@ -1,0 +1,125 @@
+{
+  "comparisons": {
+    "changed_B": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "evicted_B": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "repeated": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "reversed": {
+      "first_different_token": -1,
+      "match": true
+    }
+  },
+  "document_id": "access",
+  "document_tokens": 126,
+  "focus": "/sections/Account permissions",
+  "max_tokens": 16,
+  "model_load_ms": 1385.0106,
+  "question": "What is the default account role?",
+  "scenarios": {
+    "baseline": {
+      "context_ms": 43.8717,
+      "document_prefill_ms": 1345.0094,
+      "eviction_ms": 0.0,
+      "generated_tokens": 3,
+      "generation_ms": 112.3263,
+      "ids": [
+        41756,
+        643,
+        271
+      ],
+      "kv_after_bytes": 2524476,
+      "kv_after_pos": 76,
+      "kv_before_bytes": 2524476,
+      "kv_before_pos": 76,
+      "question_prefill_ms": 389.7809,
+      "text": " VIEWER",
+      "total_ms": 1891.2651
+    },
+    "changed_B": {
+      "context_ms": 38.3414,
+      "document_prefill_ms": 1167.8325,
+      "eviction_ms": 0.0,
+      "generated_tokens": 3,
+      "generation_ms": 100.1448,
+      "ids": [
+        41756,
+        643,
+        271
+      ],
+      "kv_after_bytes": 2524476,
+      "kv_after_pos": 76,
+      "kv_before_bytes": 2524476,
+      "kv_before_pos": 76,
+      "question_prefill_ms": 284.0205,
+      "text": " VIEWER",
+      "total_ms": 1590.5749
+    },
+    "evicted_B": {
+      "context_ms": 31.7595,
+      "document_prefill_ms": 1162.3917,
+      "eviction_ms": 0.0206,
+      "generated_tokens": 3,
+      "generation_ms": 101.5058,
+      "ids": [
+        41756,
+        643,
+        271
+      ],
+      "kv_after_bytes": 1049376,
+      "kv_after_pos": 31,
+      "kv_before_bytes": 2524476,
+      "kv_before_pos": 76,
+      "question_prefill_ms": 277.2658,
+      "text": " VIEWER",
+      "total_ms": 1573.183
+    },
+    "repeated": {
+      "context_ms": 30.3599,
+      "document_prefill_ms": 1144.9144,
+      "eviction_ms": 0.0,
+      "generated_tokens": 3,
+      "generation_ms": 102.1896,
+      "ids": [
+        41756,
+        643,
+        271
+      ],
+      "kv_after_bytes": 2524476,
+      "kv_after_pos": 76,
+      "kv_before_bytes": 2524476,
+      "kv_before_pos": 76,
+      "question_prefill_ms": 276.3166,
+      "text": " VIEWER",
+      "total_ms": 1554.019
+    },
+    "reversed": {
+      "context_ms": 32.1112,
+      "document_prefill_ms": 1168.7977,
+      "eviction_ms": 0.0,
+      "generated_tokens": 3,
+      "generation_ms": 111.7541,
+      "ids": [
+        41756,
+        643,
+        271
+      ],
+      "kv_after_bytes": 2524476,
+      "kv_after_pos": 76,
+      "kv_before_bytes": 2524476,
+      "kv_before_pos": 76,
+      "question_prefill_ms": 290.5863,
+      "text": " VIEWER",
+      "total_ms": 1603.4525
+    }
+  },
+  "threads": 4,
+  "unrelated": "/sections/Audit records"
+}

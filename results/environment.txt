@@ -1,0 +1,16 @@
+Date: 2026-10-12T20:39:02.5247165+05:30
+OS: Microsoft Windows 10.0.26200
+Architecture: X64
+CMake: cmake version 3.29.2
+Git: git version 2.49.0.windows.1
+Compiler: g++.exe (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8) 13.2.0
+Ninja: 1.12.0
+llama.cpp commit: 8bb3cf0d216a5ae48360179f2931daf284be4d01
+llama.cpp remote: https://github.com/ggml-org/llama.cpp.git
+Model: Llama-3.2-1B-Instruct-Q4_K_M.gguf
+Model source: https://huggingface.co/unsloth/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q4_K_M.gguf
+Model bytes: 807694368
+Model SHA256: 3F5A22426976AB26CFE84DBA63C1D08391717ABB1AF893E10F1B2968D862DCC1
+Free C bytes before download: 285191852032
+Build: Release, Ninja, MinGW GCC 13.2, CPU backend only; CUDA/Vulkan/Metal OFF
+Windows compatibility: _WIN32_WINNT=0x0A00; guarded unavailable thread power throttling API; CreateFileW in bundled httplib

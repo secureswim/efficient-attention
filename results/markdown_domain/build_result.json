@@ -1,0 +1,125 @@
+{
+  "comparisons": {
+    "changed_B": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "evicted_B": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "repeated": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "reversed": {
+      "first_different_token": -1,
+      "match": true
+    }
+  },
+  "document_id": "build",
+  "document_tokens": 119,
+  "focus": "/sections/Release artifact",
+  "max_tokens": 16,
+  "model_load_ms": 1379.2266,
+  "question": "What is the release package file extension?",
+  "scenarios": {
+    "baseline": {
+      "context_ms": 33.9818,
+      "document_prefill_ms": 1228.0397,
+      "eviction_ms": 0.0,
+      "generated_tokens": 3,
+      "generation_ms": 102.6563,
+      "ids": [
+        421,
+        75,
+        1432
+      ],
+      "kv_after_bytes": 2262236,
+      "kv_after_pos": 68,
+      "kv_before_bytes": 2262236,
+      "kv_before_pos": 68,
+      "question_prefill_ms": 371.5991,
+      "text": " whl",
+      "total_ms": 1736.5378
+    },
+    "changed_B": {
+      "context_ms": 29.1575,
+      "document_prefill_ms": 1211.6331,
+      "eviction_ms": 0.0,
+      "generated_tokens": 3,
+      "generation_ms": 106.2864,
+      "ids": [
+        421,
+        75,
+        1432
+      ],
+      "kv_after_bytes": 2262236,
+      "kv_after_pos": 68,
+      "kv_before_bytes": 2262236,
+      "kv_before_pos": 68,
+      "question_prefill_ms": 348.3144,
+      "text": " whl",
+      "total_ms": 1695.6349
+    },
+    "evicted_B": {
+      "context_ms": 27.105,
+      "document_prefill_ms": 1178.2377,
+      "eviction_ms": 0.0195,
+      "generated_tokens": 3,
+      "generation_ms": 104.1596,
+      "ids": [
+        421,
+        75,
+        1432
+      ],
+      "kv_after_bytes": 1049376,
+      "kv_after_pos": 31,
+      "kv_before_bytes": 2262236,
+      "kv_before_pos": 68,
+      "question_prefill_ms": 303.3624,
+      "text": " whl",
+      "total_ms": 1613.1053
+    },
+    "repeated": {
+      "context_ms": 29.4127,
+      "document_prefill_ms": 1265.8328,
+      "eviction_ms": 0.0,
+      "generated_tokens": 3,
+      "generation_ms": 103.2531,
+      "ids": [
+        421,
+        75,
+        1432
+      ],
+      "kv_after_bytes": 2262236,
+      "kv_after_pos": 68,
+      "kv_before_bytes": 2262236,
+      "kv_before_pos": 68,
+      "question_prefill_ms": 281.6135,
+      "text": " whl",
+      "total_ms": 1680.3442
+    },
+    "reversed": {
+      "context_ms": 29.058,
+      "document_prefill_ms": 1111.7117,
+      "eviction_ms": 0.0,
+      "generated_tokens": 3,
+      "generation_ms": 134.4575,
+      "ids": [
+        421,
+        75,
+        1432
+      ],
+      "kv_after_bytes": 2262236,
+      "kv_after_pos": 68,
+      "kv_before_bytes": 2262236,
+      "kv_before_pos": 68,
+      "question_prefill_ms": 295.3981,
+      "text": " whl",
+      "total_ms": 1570.8269
+    }
+  },
+  "threads": 4,
+  "unrelated": "/sections/Documentation build"
+}

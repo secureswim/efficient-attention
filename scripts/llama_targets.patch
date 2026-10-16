@@ -1,0 +1,18 @@
+diff --git a/examples/batched/CMakeLists.txt b/examples/batched/CMakeLists.txt
+index 1d7c2a0..fe30f03 100644
+--- a/examples/batched/CMakeLists.txt
++++ b/examples/batched/CMakeLists.txt
+@@ -3,3 +3,13 @@ add_executable(${TARGET} batched.cpp)
+ install(TARGETS ${TARGET} RUNTIME)
+ target_link_libraries(${TARGET} PRIVATE llama-common llama ${CMAKE_THREAD_LIBS_INIT})
+ target_compile_features(${TARGET} PRIVATE cxx_std_17)
++
++add_executable(two-prompt ../../../src/two_prompt.cpp)
++target_include_directories(two-prompt PRIVATE ../../include)
++target_link_libraries(two-prompt PRIVATE llama)
++target_compile_features(two-prompt PRIVATE cxx_std_17)
++
++add_executable(structured-attention-driver ../../../src/structured_attention_driver.cpp)
++target_include_directories(structured-attention-driver PRIVATE ../../include ../../vendor/nlohmann)
++target_link_libraries(structured-attention-driver PRIVATE llama)
++target_compile_features(structured-attention-driver PRIVATE cxx_std_17)

@@ -1,0 +1,120 @@
+{
+  "comparisons": {
+    "changed_B": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "evicted_B": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "repeated": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "reversed": {
+      "first_different_token": -1,
+      "match": true
+    }
+  },
+  "document_id": "exports",
+  "document_tokens": 129,
+  "focus": "/functions/export_extension",
+  "max_tokens": 16,
+  "model_load_ms": 1364.0778,
+  "question": "What extension does export_extension return for the table file type?",
+  "scenarios": {
+    "baseline": {
+      "context_ms": 38.2065,
+      "document_prefill_ms": 1667.5694,
+      "eviction_ms": 0.0,
+      "generated_tokens": 2,
+      "generation_ms": 52.0005,
+      "ids": [
+        13448,
+        271
+      ],
+      "kv_after_bytes": 2786716,
+      "kv_after_pos": 84,
+      "kv_before_bytes": 2786716,
+      "kv_before_pos": 84,
+      "question_prefill_ms": 426.9837,
+      "text": " csv",
+      "total_ms": 2185.0582
+    },
+    "changed_B": {
+      "context_ms": 33.9677,
+      "document_prefill_ms": 1510.1702,
+      "eviction_ms": 0.0,
+      "generated_tokens": 2,
+      "generation_ms": 44.3601,
+      "ids": [
+        13448,
+        271
+      ],
+      "kv_after_bytes": 2753936,
+      "kv_after_pos": 83,
+      "kv_before_bytes": 2753936,
+      "kv_before_pos": 83,
+      "question_prefill_ms": 335.706,
+      "text": " csv",
+      "total_ms": 1924.4608
+    },
+    "evicted_B": {
+      "context_ms": 29.3129,
+      "document_prefill_ms": 1579.6721,
+      "eviction_ms": 0.0206,
+      "generated_tokens": 2,
+      "generation_ms": 54.1913,
+      "ids": [
+        13448,
+        271
+      ],
+      "kv_after_bytes": 1541076,
+      "kv_after_pos": 46,
+      "kv_before_bytes": 2786716,
+      "kv_before_pos": 84,
+      "question_prefill_ms": 350.1337,
+      "text": " csv",
+      "total_ms": 2013.558
+    },
+    "repeated": {
+      "context_ms": 31.2883,
+      "document_prefill_ms": 1533.5071,
+      "eviction_ms": 0.0,
+      "generated_tokens": 2,
+      "generation_ms": 53.6632,
+      "ids": [
+        13448,
+        271
+      ],
+      "kv_after_bytes": 2786716,
+      "kv_after_pos": 84,
+      "kv_before_bytes": 2786716,
+      "kv_before_pos": 84,
+      "question_prefill_ms": 344.2434,
+      "text": " csv",
+      "total_ms": 1962.9615
+    },
+    "reversed": {
+      "context_ms": 33.5733,
+      "document_prefill_ms": 1557.6534,
+      "eviction_ms": 0.0,
+      "generated_tokens": 2,
+      "generation_ms": 53.7754,
+      "ids": [
+        13448,
+        271
+      ],
+      "kv_after_bytes": 2786716,
+      "kv_after_pos": 84,
+      "kv_before_bytes": 2786716,
+      "kv_before_pos": 84,
+      "question_prefill_ms": 363.1836,
+      "text": " csv",
+      "total_ms": 2008.4053
+    }
+  },
+  "threads": 4,
+  "unrelated": "/functions/row_caption"
+}

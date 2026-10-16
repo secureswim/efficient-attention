@@ -1,0 +1,125 @@
+{
+  "comparisons": {
+    "changed_B": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "evicted_B": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "repeated": {
+      "first_different_token": -1,
+      "match": true
+    },
+    "reversed": {
+      "first_different_token": -1,
+      "match": true
+    }
+  },
+  "document_id": "incident",
+  "document_tokens": 126,
+  "focus": "/sections/Severity rules",
+  "max_tokens": 16,
+  "model_load_ms": 1381.2336,
+  "question": "What severity is assigned to customer data exposure?",
+  "scenarios": {
+    "baseline": {
+      "context_ms": 34.3247,
+      "document_prefill_ms": 1210.3035,
+      "eviction_ms": 0.0,
+      "generated_tokens": 3,
+      "generation_ms": 107.8573,
+      "ids": [
+        393,
+        16,
+        271
+      ],
+      "kv_after_bytes": 2393356,
+      "kv_after_pos": 72,
+      "kv_before_bytes": 2393356,
+      "kv_before_pos": 72,
+      "question_prefill_ms": 376.3452,
+      "text": " P1",
+      "total_ms": 1729.0937
+    },
+    "changed_B": {
+      "context_ms": 32.9447,
+      "document_prefill_ms": 1124.5804,
+      "eviction_ms": 0.0,
+      "generated_tokens": 3,
+      "generation_ms": 102.9541,
+      "ids": [
+        393,
+        16,
+        271
+      ],
+      "kv_after_bytes": 2393356,
+      "kv_after_pos": 72,
+      "kv_before_bytes": 2393356,
+      "kv_before_pos": 72,
+      "question_prefill_ms": 300.9214,
+      "text": " P1",
+      "total_ms": 1561.6426
+    },
+    "evicted_B": {
+      "context_ms": 30.7819,
+      "document_prefill_ms": 1261.4786,
+      "eviction_ms": 0.0207,
+      "generated_tokens": 3,
+      "generation_ms": 148.1563,
+      "ids": [
+        393,
+        16,
+        271
+      ],
+      "kv_after_bytes": 1082156,
+      "kv_after_pos": 32,
+      "kv_before_bytes": 2393356,
+      "kv_before_pos": 72,
+      "question_prefill_ms": 336.4957,
+      "text": " P1",
+      "total_ms": 1777.1777
+    },
+    "repeated": {
+      "context_ms": 34.1745,
+      "document_prefill_ms": 1159.1311,
+      "eviction_ms": 0.0,
+      "generated_tokens": 3,
+      "generation_ms": 109.6597,
+      "ids": [
+        393,
+        16,
+        271
+      ],
+      "kv_after_bytes": 2393356,
+      "kv_after_pos": 72,
+      "kv_before_bytes": 2393356,
+      "kv_before_pos": 72,
+      "question_prefill_ms": 303.1329,
+      "text": " P1",
+      "total_ms": 1606.3642
+    },
+    "reversed": {
+      "context_ms": 35.4562,
+      "document_prefill_ms": 1148.9351,
+      "eviction_ms": 0.0,
+      "generated_tokens": 3,
+      "generation_ms": 104.3419,
+      "ids": [
+        393,
+        16,
+        271
+      ],
+      "kv_after_bytes": 2393356,
+      "kv_after_pos": 72,
+      "kv_before_bytes": 2393356,
+      "kv_before_pos": 72,
+      "question_prefill_ms": 298.7577,
+      "text": " P1",
+      "total_ms": 1587.7142
+    }
+  },
+  "threads": 4,
+  "unrelated": "/sections/Notification route"
+}
